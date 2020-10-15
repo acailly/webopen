@@ -1,7 +1,16 @@
 {
   "name": "web-open",
   "version": "1.0.0",
-  "description": "",
+  "description": "Open an url in the native webview",
+  "author": "Antoine Cailly (https://acailly.github.io)",
+  "homepage": "https://github.com/acailly/webopen",
+  "bugs": {
+    "url": "https://github.com/acailly/webopen/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acailly/webopen.git"
+  },
   "main": "index.js",
   "bin" : { 
     "webopen" : "./index.js" 
@@ -12,9 +21,9 @@
     "exe:linux": "nexe run.js -t linux-x64-12.9.1 -o dist/webopen",
     "exe:mac": "nexe run.js -t mac-x64-8.9.4 -o dist/webopen"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["webview", "native"],
   "license": "ISC",
+  "private": false,
   "devDependencies": {
     "deskgap": "^0.2.0",
     "nexe": "^3.3.7"
