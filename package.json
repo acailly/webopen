@@ -12,8 +12,8 @@
     "url": "https://github.com/acailly/webopen.git"
   },
   "main": "index.js",
-  "bin" : { 
-    "webopen" : "./index.js" 
+  "bin": {
+    "webopen": "./index.js"
   },
   "scripts": {
     "start": "deskgap .",
@@ -21,11 +21,16 @@
     "exe:linux": "nexe run.js -t linux-x64-12.9.1 -o dist/webopen",
     "exe:mac": "nexe run.js -t mac-x64-8.9.4 -o dist/webopen"
   },
-  "keywords": ["webview", "native"],
+  "keywords": [
+    "webview",
+    "native"
+  ],
   "license": "ISC",
   "private": false,
   "devDependencies": {
-    "deskgap": "^0.2.0",
     "nexe": "^3.3.7"
+  },
+  "dependencies": {
+    "deskgap": "^0.2.0"
   }
 }
