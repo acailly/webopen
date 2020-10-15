@@ -13,13 +13,13 @@
   },
   "main": "index.js",
   "bin": {
-    "webopen": "./index.js"
+    "webopen": "./cli.js"
   },
   "scripts": {
     "start": "deskgap .",
-    "exe:win": "nexe run.js -t windows-x64-12.9.1 -o dist/webopen",
-    "exe:linux": "nexe run.js -t linux-x64-12.9.1 -o dist/webopen",
-    "exe:mac": "nexe run.js -t mac-x64-8.9.4 -o dist/webopen"
+    "exe:win": "nexe cli.js -t windows-x64-12.9.1 -o dist/webopen",
+    "exe:linux": "nexe cli.js -t linux-x64-12.9.1 -o dist/webopen",
+    "exe:mac": "nexe cli.js -t mac-x64-8.9.4 -o dist/webopen"
   },
   "keywords": [
     "webview",
@@ -28,9 +28,8 @@
   "license": "ISC",
   "private": false,
   "devDependencies": {
+    "deskgap": "^0.2.0",
     "nexe": "^3.3.7"
   },
-  "dependencies": {
-    "deskgap": "^0.2.0"
-  }
+  "dependencies": {}
 }

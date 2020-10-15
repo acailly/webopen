@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // From https://github.com/nexe/nexe/issues/605#issuecomment-480631784
 const args = process.argv.slice(2);
 args.unshift(".");
