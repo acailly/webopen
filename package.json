@@ -1,6 +1,6 @@
 {
   "name": "webopen",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Open an url in the native webview",
   "author": "Antoine Cailly (https://acailly.github.io)",
   "homepage": "https://github.com/acailly/webopen",
