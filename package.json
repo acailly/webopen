@@ -16,10 +16,7 @@
     "webopen": "./cli.js"
   },
   "scripts": {
-    "start": "deskgap .",
-    "exe:win": "nexe cli.js -t windows-x64-12.9.1 -o dist/webopen",
-    "exe:linux": "nexe cli.js -t linux-x64-12.9.1 -o dist/webopen",
-    "exe:mac": "nexe cli.js -t mac-x64-8.9.4 -o dist/webopen"
+    "start": "deskgap ."
   },
   "keywords": [
     "webview",
@@ -27,9 +24,7 @@
   ],
   "license": "ISC",
   "private": false,
-  "devDependencies": {
-    "nexe": "^3.3.7"
-  },
+  "devDependencies": {},
   "dependencies": {
     "deskgap": "^0.2.0"
   }

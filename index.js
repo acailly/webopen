@@ -1,3 +1,4 @@
+console.log("TOTO");
 const { app, BrowserWindow } = require("deskgap");
 
 app.once("ready", () => {
