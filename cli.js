@@ -6,7 +6,7 @@ const os = require("os");
 
 // Copy index.js in temp folder
 const tempFolder = fs.mkdtempSync(path.join(os.tmpdir(), "webopen-"));
-const sourceIndexFile = "./index.js";
+const sourceIndexFile = path.join(__dirname, "index.js");
 const destinationIndexFile = path.join(tempFolder, "index.js");
 fs.copyFileSync(sourceIndexFile, destinationIndexFile);
 
