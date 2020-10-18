@@ -2,7 +2,7 @@
 
 Open an url in the native webview
 
-> Currently only Window has been tested but it should work on Mac and Linux too
+> Currently only Window and Linux has been tested but it should work on Mac too
 
 ## How it works?
 
